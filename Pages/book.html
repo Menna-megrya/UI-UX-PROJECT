@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Check Out </title>
+
+    <link rel="stylesheet" href="../Styles/book.css">
+    <link rel="stylesheet" href="../libs/bootstrap-5.2.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../libs/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Styles/header.css">
+    <!-- <link rel="stylesheet" href="../Styles/footer.css"> -->
+</head>
+
+<body>
+
+    <!-- _______[Header of Page] -->
+    <nav class="navbar navbar-expand-md  justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link  logo" href="home.html"> Journez </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link names bg" href="home.html"> Home </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link names bg" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link names bg" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link names bg" href="tours.html">Tours</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link names bg" href="Single-tour1.html"> Single Tour</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <!-- _________Body  -->
+    <section>
+        <div class="split left">
+            <div class="content">
+                <h4>Your order</h4>
+                <div class="order-div">
+                    <img src="../Images/mature-couple.jpg" width="200" height="135">
+                    <div class="txt-div">
+                        <h5>Enchanting Himalayan Adventure</h5>
+                        <p>2 Persons <span>$199.00</span> </p>
+                    </div>
+                </div>
+                <div class="discount">
+                    <h5>Discount Code</h5>
+                    <input type="text" placeholder="Discount Code">
+                    <br><br><hr>
+                    <div class="container after-hr-div">
+                        <div class="row">
+                            <div class="col-6 name">Subtotal</div>
+                            <div class="col-6 price">$170.00</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 name">Service Cost </div>
+                            <div class="col-6 price">$49.00</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 name">Discount (10%) </div>
+                            <div class="col-6 price">-$20.00</div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="total">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6 name">Total</div>
+                                <div class="col-6 price"><b>$199.0</b></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+
+        <div class="split right">
+            <div class="content-right">
+                <table>
+                    <tr>
+                        <td><label>Email</label></td>
+                    </tr>
+                    <tr> 
+                        <td> <input class="sh-input"  type="email" name="email" id="E-mail" placeholder="E-mail"></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label>Payment method</label></td>
+                    </tr>
+                    <tr>
+                        <td style="display: flex;">
+                            <div class="pay-radio">
+                                <input  type="radio" name="m-pay" id="Payment" /><span class="num-span"> ****8304</span>
+                                <span><img src="../Images/paypal (1).png" width="35" height="35"></span>
+                                <div class="method-pay"> <p> PayPal . Edit</p></div>
+                            </div>
+                        
+                            <div class="pay-radio">
+                                <input  type="radio" name="m-pay" id="Payment" /><span class="num-span"> ****8304</span>
+                                <span> <img src="../Images/visa-blue.png" width="37" height="38"></span>
+
+                                <div class="method-pay"> <p> Visa . Edit</p></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Card holder name </label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="sh-input" type="text" placeholder="Ex.yourname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Address </label></td>
+                    </tr>
+                    <tr>
+                        <td> <select id="country" class="sh-input">
+                            
+                            <option value="egypt">Egypt</option>
+                            <option value="USA">UAE</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="India">India</option>
+                            <option value="Australia">Australia</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Zip Code</label>
+
+                            <label class="city-lbl">City</label>
+                        </td>   
+                    </tr>
+                    <tr>
+                       <td>
+                        <input type="text" placeholder="Ex.739234" class="Zip">
+                        <input type="text" placeholder="Ex.Cairo" class="Zip city-input">
+                       </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox"><span class="agree-span"> Agree to Rules  </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="btn-divv">
+                                <a id="pay" href="#">
+                                    <div class="pay-btn">Pay $199.00</div>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- ________________________Footer  -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-12">
+                    <div class="first">
+                        <h4>Our Goal</h4>
+                        <p> Provide Best Services</p>
+                        <p> Offer Plenty of Destination</p>
+                        <p> Low Budget</p>
+                        <p> Comfy Travel</p>
+                        <p> Reach To any Point</p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="second">
+                        <h4> Navigate</h4>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="home.html#contact-form">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="third">
+                        <h4> Contact</h4>
+                        <ul>
+                            <li>Menna Magdy Megrya </li>
+                            <li></li>
+                            <li><i class="far fa-envelope"></i> manager@journez.co.uk</li>
+                            <li><i class="far fa-envelope"></i> email@yahoo.com</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Sydney, Australia </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="line"></div>
+                    <div class="second2">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-facebook fa-2x margin"></i>
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fab fa-twitter fa-2x margin"></i>
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fab fa-instagram fa-2x margin"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../Scripts/subscribe.js"></script>
+    <script src="https://kit.fontawesome.com/3209cbacd9.js" crossorigin="anonymous"></script>
+    <script src="../libs/bootstrap-5.2.3-dist/js/bootstrap.js"></script>
+    <script src="../libs/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

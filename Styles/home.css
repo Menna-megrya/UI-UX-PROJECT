@@ -1,0 +1,424 @@
+body {
+    background-image: url("../Images/journez-home-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container-txt {
+    margin-top: 95px;
+}
+
+.section-2 {
+    display: flex;
+}
+
+.div-sec2 {
+    position: absolute;
+}
+
+.div-sec2 h2 {
+    margin: 270px 50px 0px 240px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+.txt-white {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.15em;
+}
+
+.text-yellow {
+    color: #F3DF55;
+    font-weight: bold;
+}
+
+.div-txt-beside {
+    position: relative;
+    top: 400px;
+    left: 730px;
+    font-family: "Roboto", Sans-serif;
+    word-wrap: break-word;
+}
+
+.txts {
+    margin-bottom: 27px;
+}
+
+#bg-btn {
+    background-color: #F3DF55;
+    border-radius: 25px;
+    padding: 15px 5px;
+    width: 205px;
+    font-weight: bold;
+}
+
+.btn-beside a {
+    text-decoration: none;
+}
+
+.btn-beside a:hover span {
+    color: #F3DF55;
+}
+
+.btn-beside a:hover #bg-btn {
+    background-color: #3b3d42;
+}
+
+
+.btn-beside span {
+    padding: 17px 40.5px 17px 40px;
+    color: #3b3d42;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    font-size: 14px;
+
+}
+
+/* /////////////////////////section3 */
+.container-sec3 {
+    margin: 410px 0px 60px 0px;
+    padding: 72px 0px 60px 0px;
+}
+
+.title-sec3 {
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+.imgss {
+    margin: 45px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img1 {
+    background-image: url("../Images/journez-tour-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 450px;
+}
+
+.txt-on-img {
+    padding: 310px 10px 25px 10px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.tour-name {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.img2 {
+    background-image: url("../Images/journez-tour-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 450px;
+}
+
+.img3 {
+    background-image: url("../Images/journez-tour-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 380px;
+    height: 450px;
+
+}
+
+.under-btn {
+    margin-left: 560px;
+}
+
+.see-btn {
+    background-color: #F3DF55;
+    border-radius: 25px;
+    padding: 15px 5px;
+    width: 250px;
+    font-weight: bold;
+}
+
+a:hover .see-btn {
+    background-color: #3b3d42;
+}
+
+/* ////////////////section 4 */
+.bg-container4 {
+    width: 1100px;
+    height: 600px;
+    margin: 30px;
+    margin-left: 130px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.title-sec4 h2 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+.txt-sec4-beside {
+    line-height: 25px;
+    margin-left: 520px;
+}
+
+.text-yellow h2 {
+    font-size: 24px;
+
+}
+
+.text-light {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.15em;
+}
+
+/* /////////section 5 */
+.container-5 {
+    margin: 45px 10px 10px 110px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 57px;
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 1150px;
+    height: 550px;
+}
+
+.title-sec5 h2 {
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+.client-txt {
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.15em;
+    width: 460px;
+}
+
+.cont-with-img {
+    margin-top: 50px;
+}
+
+.spk-circle-div {
+    display: flex;
+    margin: 27px;
+}
+
+.spk-img {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.spk-img img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.spk-name {
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+/* Slides */
+.mySlides {
+    /* display: none; */
+    padding: 50px;
+    text-align: center;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 10px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+/* ///////////////  section 6 */
+.container6 {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.container6 p {
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+.container6 .number {
+    color: #f3df55;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+.browse-btn {
+    background-color: #F3DF55;
+    border-radius: 25px;
+    padding: 15px 5px;
+    width: 290px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+a:hover .browse-btn {
+    background-color: #3b3d42;
+
+}
+
+/* /////////////////// Footer */
+
+.footer-div {
+    margin: 140px 50px 0px 130px;
+}
+
+.footer-cont {
+    display: flex;
+}
+
+.title-form h2 {
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+
+form .txt-inputs {
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 9px 0px 9px 0px;
+    margin: 33px 0px 0px 0px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #ffffff;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    width: 400px;
+}
+
+.contact-btn {
+    background-color: #f3df55;
+    color: #333333;
+    text-decoration: none;
+    padding: 17px 40px;
+    border-radius: 27px;
+    border-width: 0px;
+    margin: 50px 0px 0px 0px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+}
+
+.contact-btn:hover {
+    background-color: #3b3d42;
+    color: #F3DF55;
+    cursor: pointer;
+}
+
+.beside-form {
+    margin: 55px 50px 0px 190px;
+    color: #ffffff;
+}
+
+.icon-txt {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.icon-txt img {
+    margin-right: 20px;
+}
+
+.img-title {
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-bottom: 8px;
+}
+

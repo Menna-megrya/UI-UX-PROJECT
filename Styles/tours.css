@@ -1,0 +1,271 @@
+body {
+    background-image: url("../Images/journez-about-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg:hover{
+
+    background: linear-gradient(to right ,#FFDEE9,#B5FFFC);
+}
+
+/* ///////////Section 1 - shared */
+.head-title{
+    margin-top:60px;
+   
+}
+.head-title h2{
+    color: #333333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.tours-container{
+ margin-top: 60px;
+ /* margin-left: 208px; */
+}
+.right{
+    position: relative;
+    left: 50px;
+}
+.tour-imgs img{
+    border-radius:15px ;
+}
+
+.txt-content{
+    /* margin: 20px 0px 0px 60px; */
+
+    margin-left: 20px;
+}
+.txt-content h4{
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2em;
+
+}
+.txt-content .div2{
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 2em;
+}
+.txt-content .div3{
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2em;
+}
+.txt-content .div4-list{
+    margin-top: 12px;
+}
+.txt-content .div4-list ul{
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;  
+}
+
+.div4-list li{
+    display: inline;
+    color: #333333;
+    padding-left: 5px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.price-cont{
+    display: flex;
+
+    /* padding: 50px; */
+    /* margin-left: 60px; */
+}
+.hot-span{
+    width: 87px;
+    margin-left: 51px;
+    padding: 3px 7px ;
+    background:linear-gradient(to right ,#21D4FD ,#6284FF );
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+    font-weight: 600;
+}
+.p-13 p{
+    color: #8709db;
+}
+.price{
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    padding: 15px;
+}
+.del-price{
+    text-align: center;
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+}
+#bg-btn {
+    background-color:#3b3d42 ;
+    border-radius: 25px;
+    padding: 10px 5px ;
+    width: 198px; 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.btn-beside{
+    margin-top: 10px;
+}
+.btn-beside a{
+    text-decoration: none;
+}
+.btn-beside a:hover span{    
+    color:  #3b3d42;
+}
+.btn-beside a:hover #bg-btn{    
+    background-color:#F3DF55 ;
+}
+.btn-beside span {
+    padding: 15px 35px;
+    color: #F3DF55;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    font-size: 13px;
+
+}
+
+
+
+/* ___________________________________ end imgs tour*/
+
+.bg-gray{
+    background-color: #c3c5c5;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    padding: 60px;
+}
+.title-keep{
+    font-size: 2.625rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.p-div{
+    margin-top: 10px;
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+    font-family:  Georgia, serif;
+}
+/* ________________________end sec3 */
+.section4{
+    margin-top: 110px;
+}
+.div-container{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+.cont-Simg{
+    display: flex;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.cont-Simg img{
+    border-radius: 5px;
+}
+.cont-text h4{
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cont-text {
+    margin-left: 20px;
+    margin-top: 16px;
+}
+.cont-text p{
+    color: #4d4d4d;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.col2{
+    position: relative;
+    left: 175px;
+}
+
+.col3{
+    position: relative;
+    left: 300px;
+}
+
+/* _____________________________________________ Section 5 Subscribe */
+
+.section5 {
+    margin: 66px 50px 10px 65px;
+    padding: 20px;
+}
+
+.cont-bg {
+    width: 1200px;
+    height: 350px;
+    border-radius: 30px;
+    background-color: #9ED9CB;
+    text-align: center;
+}
+
+.content-sub {
+    padding-top: 100px;
+}
+
+.content-sub .div-head {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.0015em;
+    text-align: center;
+    color: #2D3134;
+    margin-bottom: 10px;
+}
+
+.content-sub .div-get {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5B5F62;
+    margin-bottom: 25px;
+}
+
+.content-sub .div-input input {
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 12px;
+    border-width: 0;
+    padding: 10px;
+}
+/* __________________________ */

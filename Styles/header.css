@@ -1,0 +1,41 @@
+.dis {
+    display: flex;
+}
+
+.navbar {
+    background-color: #EEF1F4;
+    width: 100%;
+    height: 80px;
+}
+
+.names {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    color: #37454D;
+    margin-right: 30px;
+
+}
+
+.names:hover {
+    color: #2C8FA8;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    background: -webkit-linear-gradient(91.96deg, #187D8B 8.69%, #5499EA 98.17%);
+    margin-right: 330px;
+    padding-bottom: 10px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    font-family: 'Concert One';
+    font-size: 48px;
+    font-weight: 500;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

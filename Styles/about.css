@@ -1,0 +1,191 @@
+body {
+    background-image: url("../Images/journez-about-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section1{
+    margin-top: 60px;
+}
+h2{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #0C111F;
+}
+.p-choose{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #545F71;
+}
+.div-right{
+    margin-top: 68px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.div1 ,.div2 , .div3{
+    display: flex;
+}
+
+.icon-bg{
+    text-align: center;
+    width: 125px;
+    height: 80px;
+    background-color: #7e7e78;
+    border-radius: 50%;
+    margin: 20px 30px 10px 10px;
+}
+.heart-icon{
+    width: 157px;
+}
+.icon-bg img{
+    margin-top: 20px;
+}
+.content-txt h4{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0C111F;
+
+}
+.content-txt p{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  #6D7079;
+}
+/* _________________________End sec1 */
+
+.section2{
+    margin-top: 90px;
+}
+.title-mission{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0C111F;
+    margin-bottom: 18px;
+}
+.section2 p{
+    color: #6D7079;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+/* ______________________________End Sec2 */
+
+.section3{
+    margin: 45px 10px 10px 10px;
+}
+.title-ready{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: -1px;
+    text-align: left;
+    color:#0C111F ;
+    margin-bottom: 15px;
+}
+.div-p{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6D7079;
+    margin-bottom: 15px;
+}
+.btn-contact{
+    background-color: #7e7e78;
+    width: 164px;
+    height: 64px;
+    border-radius: 100px;
+    text-align: center;   
+}
+.btn-contact a{
+    color: white;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    text-decoration: none;
+}
+.btn-contact:hover{
+    background-color: #483d8f;
+}
+.btn-contact a div{
+    padding: 17px;
+    text-align: center;
+}
+/* __________________________End Section 3 */
+
+.section4{
+    margin: 66px 50px 10px 65px;
+    padding: 20px;
+}
+.cont-bg{
+    width: 1200px;
+    height: 350px;
+    border-radius: 30px;
+    background-color: #9ED9CB;
+    text-align: center;
+}
+.content-sub{
+    padding-top: 100px;
+}
+.content-sub .div-head{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.0015em;
+    text-align: center;
+    color:  #2D3134;
+    margin-bottom: 10px;
+}
+.content-sub .div-get{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5B5F62;
+    margin-bottom: 25px;
+}
+
+.content-sub .div-input input{
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 12px;
+    border-width: 0;
+    padding: 10px;
+}
+/* ________________________End Section 4 */

@@ -1,0 +1,207 @@
+body {
+    background-image: url("../Images/journez-about-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head-title{
+    margin-top:60px;
+   
+}
+.head-title h2{
+    color: #333333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.2em;
+    text-align: center;
+}
+/* ______________________ */
+
+.section1{
+    margin-top: 50px;
+}
+.big-img img{
+    border-radius: 10px;
+    margin-left: 70px;
+}
+.txt-beside{
+    margin-top: 40px;
+}
+.txt-beside h3{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.txt-beside p{
+    color: #7a7a7a;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.15em;
+    margin-bottom: 1em;
+}
+.lista-div{
+    position: relative;
+    left: -25px;
+}
+.lista-div ul{
+    list-style-type: none;
+}
+.list-item{
+    padding-bottom: 15px;
+}
+.list-icon{
+   
+    text-align: center;
+
+}
+.list-text{
+    color: #333333;
+    padding-left: 18px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* _____________________  End Sec 1 */
+
+/* _________________________________Section 2 */
+
+.section2{
+    margin-top: 70px;
+}
+.center{
+    text-align: center;
+}
+.section2 .row{
+    margin-left: 120px;
+}
+.btn-span{
+    padding: 14px 36px 13px 40px;
+    border-color: #7a7a7a;
+    border-style: solid;
+    border-width: 1px ;
+    border-radius: 5px ;
+    overflow: hidden;
+    z-index: 1;
+}
+.btn-span a{
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    text-decoration: none;
+    
+}
+.btn-span:hover{
+    background-color: #669bbc;
+}
+.btn-span a:hover{
+    color: white;
+}
+/* __________________________Content */
+#content-container{
+    padding: 20px;
+    margin: 30px 30px 30px 238px;
+}
+#content1 h4{
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2em;
+    margin: 0 0 1em;
+}
+#content1 .words-p{
+    color: #7a7a7a;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2em;
+}
+.txt-under{
+    display: flex;
+}
+.p-des{
+    margin-left: 50px;
+}
+.p-des p{
+    margin-bottom: 12px;
+    color: #616161;
+}
+.p-des .price{
+    color: darkslategrey;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p-des .price del{
+    color: goldenrod;
+}
+
+.txt-bold div{
+    margin-bottom: 15px;
+}
+/* ___________ */
+#content3 img{
+    margin-right: 12px;
+}
+
+.des-day{
+    color: #5a5a5a;
+    margin-left: 20px;
+}
+
+/* ________________________________________________ */
+.section5 {
+    margin: 66px 50px 10px 65px;
+    padding: 20px;
+}
+
+.cont-bg {
+    width: 1200px;
+    height: 350px;
+    border-radius: 30px;
+    background-color: #9ED9CB;
+    text-align: center;
+}
+
+.content-sub {
+    padding-top: 100px;
+}
+
+.content-sub .div-head {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.0015em;
+    text-align: center;
+    color: #2D3134;
+    margin-bottom: 10px;
+}
+
+.content-sub .div-get {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5B5F62;
+    margin-bottom: 25px;
+}
+
+.content-sub .div-input input {
+    justify-content: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 12px;
+    border-width: 0;
+    padding: 10px;
+}
